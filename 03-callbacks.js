@@ -125,3 +125,8 @@ console.log("C")      ← runs immediately
 1 second passes
 console.log("B")      ← finally runs
 */
+
+// The above is also the shape of callback hell (more in the next section).
+// All this nesting is starting to look like a triangle. This is what we call: callback hell.
+// It is when you run into the trouble of nesting many callbacks inside of other callbacks.
+// The callbacks (if they weren't written in this methodical way) can become quite unmanageable.
